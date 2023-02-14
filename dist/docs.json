@@ -44,6 +44,16 @@
         "docs": "",
         "complexTypes": [],
         "slug": "listbondeddevices"
+      },
+      {
+        "name": "isEnabled",
+        "signature": "() => Promise<boolean>",
+        "parameters": [],
+        "returns": "Promise<boolean>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "isenabled"
       }
     ],
     "properties": []

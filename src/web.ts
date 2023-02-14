@@ -10,4 +10,7 @@ export class rewaabluetoothWeb
   async startBluetoothDiscovery(): Promise<void> {}
   async stopBluetoothDiscovery(): Promise<void> {}
   async listBondedDevices(): Promise<void> {}
+  async isEnabled(): Promise<boolean> {
+    return false;
+  }
 }

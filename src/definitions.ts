@@ -3,4 +3,5 @@ export interface rewaabluetoothPlugin {
   startBluetoothDiscovery(): Promise<void>;
   stopBluetoothDiscovery(): Promise<void>;
   listBondedDevices(): Promise<void>;
+  isEnabled(): Promise<boolean>;
 }

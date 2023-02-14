@@ -17,6 +17,7 @@ npx cap sync
 * [`startBluetoothDiscovery()`](#startbluetoothdiscovery)
 * [`stopBluetoothDiscovery()`](#stopbluetoothdiscovery)
 * [`listBondedDevices()`](#listbondeddevices)
+* [`isEnabled()`](#isenabled)
 
 </docgen-index>
 
@@ -55,6 +56,17 @@ stopBluetoothDiscovery() => Promise<void>
 ```typescript
 listBondedDevices() => Promise<void>
 ```
+
+--------------------
+
+
+### isEnabled()
+
+```typescript
+isEnabled() => Promise<boolean>
+```
+
+**Returns:** <code>Promise&lt;boolean&gt;</code>
 
 --------------------
 

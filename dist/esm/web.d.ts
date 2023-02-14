@@ -5,4 +5,5 @@ export declare class rewaabluetoothWeb extends WebPlugin implements rewaabluetoo
     startBluetoothDiscovery(): Promise<void>;
     stopBluetoothDiscovery(): Promise<void>;
     listBondedDevices(): Promise<void>;
+    isEnabled(): Promise<boolean>;
 }

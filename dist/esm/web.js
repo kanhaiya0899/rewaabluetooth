@@ -4,5 +4,8 @@ export class rewaabluetoothWeb extends WebPlugin {
     async startBluetoothDiscovery() { }
     async stopBluetoothDiscovery() { }
     async listBondedDevices() { }
+    async isEnabled() {
+        return false;
+    }
 }
 //# sourceMappingURL=web.js.map

@@ -10,6 +10,9 @@ var capacitorrewaabluetooth = (function (exports, core) {
         async startBluetoothDiscovery() { }
         async stopBluetoothDiscovery() { }
         async listBondedDevices() { }
+        async isEnabled() {
+            return false;
+        }
     }
 
     var web = /*#__PURE__*/Object.freeze({
