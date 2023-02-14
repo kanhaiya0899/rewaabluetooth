@@ -13,72 +13,48 @@ npx cap sync
 
 <docgen-index>
 
-* [`initialize(...)`](#initialize)
-* [`startBluetoothDiscovery(...)`](#startbluetoothdiscovery)
-* [`stopBluetoothDiscovery(...)`](#stopbluetoothdiscovery)
-* [`listBondedDevices(...)`](#listbondeddevices)
+* [`initialize()`](#initialize)
+* [`startBluetoothDiscovery()`](#startbluetoothdiscovery)
+* [`stopBluetoothDiscovery()`](#stopbluetoothdiscovery)
+* [`listBondedDevices()`](#listbondeddevices)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### initialize(...)
+### initialize()
 
 ```typescript
-initialize(options: { value: string; }) => Promise<{ value: string; }>
+initialize() => Promise<void>
 ```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
 
 
-### startBluetoothDiscovery(...)
+### startBluetoothDiscovery()
 
 ```typescript
-startBluetoothDiscovery(options: { value: string; }) => Promise<{ value: string; }>
+startBluetoothDiscovery() => Promise<void>
 ```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
 
 
-### stopBluetoothDiscovery(...)
+### stopBluetoothDiscovery()
 
 ```typescript
-stopBluetoothDiscovery(options: { value: string; }) => Promise<{ value: string; }>
+stopBluetoothDiscovery() => Promise<void>
 ```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
 
 
-### listBondedDevices(...)
+### listBondedDevices()
 
 ```typescript
-listBondedDevices(options: { value: string; }) => Promise<{ value: string; }>
+listBondedDevices() => Promise<void>
 ```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
 
